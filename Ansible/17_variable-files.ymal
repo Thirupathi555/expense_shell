@@ -1,7 +1,0 @@
-- name: variable from the file
-hosts: web
-- 04-variables
-tasks:
--name: print the course informntion
-ansible.builtin.debug:
-    msg: ""Hi, {{COURSE}}, I am learning {{Devops }},with aws}},Devops with aws"
